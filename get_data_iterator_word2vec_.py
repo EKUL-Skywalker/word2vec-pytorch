@@ -23,7 +23,7 @@ def get_data_iterator(ds_name, ds_type, data_dir):
 	return data_iter
 
 ds_name = 'WikiText2'
-ds_type = 'test'
+ds_type = 'train'
 data_dir = 'data/'
 data_iter = get_data_iterator(ds_name, ds_type, data_dir)
 print(list(data_iter)[3])
